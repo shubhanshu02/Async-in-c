@@ -7,7 +7,6 @@
  * Parameters to be passed into the
  * thread runner function
  * */
-
 typedef struct parameters
 {
     pthread_t thread;             // threadId
@@ -82,7 +81,7 @@ void asyncExecutor(int value)
         printf("Error In Threads");
         exit(0);
     }
-    pthread_detach(thread);
+    //pthread_detach(thread);
 }
 
 int main()
