@@ -32,6 +32,6 @@ time ./a.out
 
 ### Asynchronous Behaviour
 
-1. Comment the lines `95` and `96`.
-2. Uncomment the lines `99` and `100`.
+1. Comment the lines `90` and `91`.
+2. Uncomment the lines `94` and `95`.
 3. Follow the steps in the above section (Synchronous Behavior).
