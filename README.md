@@ -26,6 +26,10 @@ gcc async.c -lpthread
 
 3. Use the `time` command to check the speed of the execution in terms of seconds.
 
+```bash
+time ./a.out
+```
+
 ### Asynchronous Behaviour
 
 1. Comment the lines `95` and `96`.
